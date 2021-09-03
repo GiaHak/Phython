@@ -33,7 +33,6 @@ class User:
         
     def make_deposit(self, amount):
         self.balance.deposit(amount)
-       # print(self.balance) // Show the balance
         return self
     def make_withdraw(self, amount):
         self.balance.withdraw(amount)
